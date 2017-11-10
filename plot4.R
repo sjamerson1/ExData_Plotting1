@@ -8,3 +8,4 @@ lines(house_a_data$Sub_metering_2 ~ house_a_data$DateTime, col = 'Red')
 lines(house_a_data$Sub_metering_3 ~ house_a_data$DateTime, col = 'Blue')
 
 plot(house_a_data$Global_reactive_power ~ house_a_data$DateTime, type="l")
+png("plot4.png", width=480, height=480)
